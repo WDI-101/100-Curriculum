@@ -1,6 +1,4 @@
-# WDI Curriculum
-
-# Core Phase
+# WDI Curriculum: Core Phase
 
 ## WDI-101 Basic Web Concepts & Javascript Programming 1: Variables and Methods
 
