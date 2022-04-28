@@ -1,4 +1,8 @@
-# WDI-101 Basic Web Concepts & Javascript Programming 1: Variables and Methods
+# WDI Curriculum
+
+# Core Phase
+
+## WDI-101 Basic Web Concepts & Javascript Programming 1: Variables and Methods
 
 ### Overview
 
@@ -22,11 +26,13 @@ WDI-101 will introduce students to the basics and fundamentals of web developmen
 	* open
 	* cp
 	* mv
+	* pwd
 	* clear
 	* sudo
 * Running Node.js Scripts
 * Console.log()
 * Variables
+* camelCasing
 * Comments
 * JS Primitives 
 	* string
@@ -52,7 +58,7 @@ WDI-101 will introduce students to the basics and fundamentals of web developmen
 	* .slice()
 	* .splice()
 * Object Methods 1
-	* Object Literal Syntax 
+	* Object Literal Syntax
 	* .hasOwnProperty()
 * Assignment Operators
 	* =
@@ -94,6 +100,7 @@ Building upon the topics introduced in WDI-101, WDI-102 will dive deeper into ho
 
 #### Javascript Programming 2: Functions and Control Flow
 * Expression Evaluation Order
+* Basic Boolean Logic
 * Comparison Operators
 	* ===
 	* !==
@@ -115,7 +122,7 @@ Building upon the topics introduced in WDI-101, WDI-102 will dive deeper into ho
 * Functions
 	* Function Declaration Statement
 	* Calling Functions
-	* return
+	* return 
 	* Arguments and Parameters
 * Try Catch
 * Ternary Operators
@@ -141,8 +148,8 @@ WDI-103 will move the class into more intermediate web and Javascript topics. St
 
 #### Styled Websites
 * CSS
-	* id selector 
-	* class selector 
+	* id selector
+	* class selector
 * Flexbox
 * Grid
 * Bootstrap
