@@ -1,5 +1,11 @@
 # WDI Curriculum: Core Phase
 
+## Topic Legend
+
+* [Primary] - Indicates an essential topic that a student must have proficiency with upon completion of the module.
+* [Secondary] - Indicates a non-essential topic that should be understood or at least known by the student upon completion of the module.
+* [Tertiary] - Indicates a non-essential topic that can be optionally taught to a student if there is extra time within the module.
+
 ## WDI-101 Basic Web Concepts & Javascript Programming 1: Variables and Methods
 
 ### Overview
@@ -9,30 +15,30 @@ WDI-101 will introduce students to the basics and fundamentals of web developmen
 ### Topics
 
 #### Basic Web Concepts
-* VSCode
-* Git/Version Control
-* HTML
-* Inline Styles
+* [Primary] VSCode
+* [Primary] Git/Version Control
+* [Primary] HTML
+* [Primary] Inline Styles
 
 #### Javascript Programming 1: Variables and Methods
-* Basic File System Navigation VIA Terminal
+* [Primary] Basic File System Navigation VIA Terminal
 	* ls
 	* cd
 	* touch
 	* mkdir
 	* rm
 	* open
-	* cp
-	* mv
-	* pwd
 	* clear
 	* sudo
-* Running Node.js Scripts
-* Console.log()
-* Variables
-* camelCasing
-* Comments
-* JS Primitives 
+	* [Secondary] cp
+	* [Secondary] mv
+	* [Secondary] pwd
+* [Primary] Running Node.js Scripts
+* [Primary] Console.log()
+* [Primary] Variables
+* [Primary] camelCasing
+* [Primary] Comments
+* [Primary] JS Primitives 
 	* string
 	* number 
 	* boolean
@@ -41,13 +47,13 @@ WDI-101 will introduce students to the basics and fundamentals of web developmen
 	* null
 	* undefined
 	* NaN
-* String Methods 1
+* [Primary] String Methods 1
 	* .concat() / +
 	* .substr()
 	* .toLowerCase()
 	* .toUpperCase()
-	* .trim()
-* Array Methods 1
+	* [Secondary] .trim()
+* [Primary] Array Methods 1
 	* .push()
 	* .pop()
 	* .split()
@@ -55,22 +61,22 @@ WDI-101 will introduce students to the basics and fundamentals of web developmen
 	* .reverse()
 	* .slice()
 	* .splice()
-* Object Methods 1
+* [Primary] Object Methods 1
 	* Object Literal Syntax
 	* .hasOwnProperty()
-* Assignment Operators
+* [Primary] Assignment Operators
 	* =
 	* +=
 	* -=
 	* *=
 	* /=
-* Arithmetic Operators
+* [Primary] Arithmetic Operators
 	* %
 	* ++
 	* --
-* Grouping Operator
+* [Primary] Grouping Operator
 	* ( )
-* Math Methods
+* [Secondary] Math Methods
 	* .abs()
 	* .sqrt()
 	* .ceil()
@@ -89,41 +95,55 @@ Building upon the topics introduced in WDI-101, WDI-102 will dive deeper into ho
 ### Topics
 
 #### Basic Websites
-* HTML Pages
-* HTML Navigation
-* HTML Script Tags
-* JQuery Selectors and Methods
-* Evaluating Javascript In Browser
-* DOM Element Manipulation
+* [Primary] HTML Pages
+* [Primary] HTML Navigation
+* [Primary] HTML Script Tags
+* [Primary] JQuery Selectors and Methods
+    * $('#id') and $('.class')
+    * hide()
+    * show()
+    * html()
+    * append()
+    * prepend()
+    * on()
+    * off()
+    * css()
+    * attr()
+    * val()
+    * text()
+	* [Secondary] find()
+    * [Secondary] each()
+* [Primary] Evaluating Javascript In Browser
+* [Primary] DOM Element Manipulation
 
 #### Javascript Programming 2: Functions and Control Flow
-* Expression Evaluation Order
-* Basic Boolean Logic
-* Comparison Operators
+* [Primary] Expression Evaluation Order
+* [Primary] Basic Boolean Logic
+* [Primary] Comparison Operators
 	* ===
 	* !==
 	* \>
 	* <
-* Logical Operators
+* [Primary] Logical Operators
 	* &&
 	* ||
 	* !
 	* !!
-* String/Array Methods 2
+* [Primary] String/Array Methods 2
 	* .includes()
 	* .indexOf()
-* Loops 1
+* [Primary] Loops 1
 	* For
 	* While
-* Conditionals & Control Flow
-* Truthy vs Falsy
-* Functions
+* [Primary] Conditionals & Control Flow
+* [Primary] Truthy vs Falsy
+* [Primary] Functions
 	* Function Declaration Statement
 	* Calling Functions
 	* return 
 	* Arguments and Parameters
-* Try Catch
-* Ternary Operators
+* [Secondary] Try Catch
+* [Tertiary] Ternary Operators
 
 ## WDI-103 Functional Websites, Styled Websites & Javascript Programming 3: Intermediate Topics and Intro to Async
 
@@ -134,56 +154,56 @@ WDI-103 will move the class into more intermediate web and Javascript topics. St
 ### Topics
 
 #### Functional Websites
-* HTTP Methods
+* [Primary] HTTP Methods
 	* GET
 	* POST
 	* PUT
 	* DELETE
-* Ajax/Fetch
-* Events
-* Inputs
-* Forms
+* [Primary] Ajax/Fetch
+* [Primary] Events
+* [Primary] Inputs
+* [Primary] Forms
 
 #### Styled Websites
-* CSS
+* [Primary] CSS
 	* id selector
 	* class selector
-* Flexbox
-* Grid
-* Bootstrap
+* [Secondary] Flexbox
+* [Secondary] Grid
+* [Secondary] Bootstrap
 
 #### Javascript Programming 3: Advanced Topics and Intro to Async
-* Variable Scope
-	* Global vs Block/Lexical/Function Scope / Avoiding Naming Conflicts
-	* Const vs Let
-* Loops 2
+* [Primary] Advanced Variables
+	* [Primary] Const vs Let
+	* [Primary] This Keyword
+	* [Primary] Arrow Function / =>
+	* [Secondary] Variable Type Coersion
+	* [Secondary] Global vs Block/Lexical/Function Scope / Avoiding Naming Conflicts
+* [Primary] Array Methods 2
+	* .forEach()
+	* .sort()
+* [Primary] Object Methods 2
+	* .entries()
+	* .keys()
+	* .values()
+* [Secondary] Loops 2
 	* do ... while
 	* for ... in
 	* for ... of
 	* break
 	* continue
-* Variable Type Conversion
-* Functions 2
+* [Secondary] Functions 2
 	* Hoisting
 	* Closures
 	* Nesting
 	* Recursion
 	* Rest Parameter / ...args
-* This Keyword
-	* Arrow Function / =>
-* typeof Operator
-* Array and Object Destructuring
-* Asynchronous Javascript 1
+* [Secondary] typeof Operator
+* [Secondary] Array and Object Destructuring
+* [Primary] Asynchronous Javascript 1
 	* Synchronous vs Asynchronous Execution
 	* Call Stack
-* Array Methods 2
-	* .forEach()
-	* .sort()
-* Object Methods 2
-	* .entries()
-	* .keys()
-	* .values()
-* JSON Methods
+* [Primary] JSON Methods
 	* .stringify()
 	* .parse()
 
@@ -196,41 +216,42 @@ WDI-104 serves as the last phase of introduction for all the web and Javascript 
 ### Topics
 
 #### Advanced Websites
-* API
-* MVC Model
-* Require/Import/Export Syntax
+* [Primary] API
+* [Primary] Require/Import/Export Syntax
+	* Default vs Named Export
+* [Secondary] MVC Model
 
 #### Javascript Programming 4: Advanced Topics, Advanced Async, and Data Structures
-* Array Methods 3
-	* .reduce()
+* [Primary] Array Methods 3
 	* .map()
 	* .filter()
-* String Methods 3
+	* [Secondary] .reduce()
+* [Secondary] String Methods 3
 	* Template Literal / ``
 	* Regex
 	* Unicode
-* Class Syntax
-	* new Keyword
-	* super
-	* getters
-	* setters
-* Functional vs Object-Oriented Programming
-* Asynchronous Javascript 2
+* [Primary] Asynchronous Javascript 2
 	* Promises
 	* Async/Await
-* Date Objects
+* [Secondary] Date Objects
 	* new Date()
 	* .get{METHOD}()
 	* .set{METHOD}()
-* File System Methods/FS
+* [Secondary] File System Methods/FS
 	* .readFile()
 	* .writeFile()
-* Additional Iterative Objects
+* [Secondary] Additional Iterative Objects
 	* Map
 	* Set
-* Additional Data Structures and Concepts
+* [Tertiary] Additional Data Structures and Concepts
 	* Linked-List
 	* Hash-Map
 	* Queue
 	* Stack
 	* Time Complexity
+* [Tertiary] Class Syntax
+	* new Keyword
+	* super
+	* getters
+	* setters
+* [Tertiary] Functional vs Object-Oriented Programming
