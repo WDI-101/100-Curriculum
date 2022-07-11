@@ -36,6 +36,8 @@ WDI-101 will introduce students to the basics and fundamentals of web developmen
 * [Primary] Running Node.js Scripts
 * [Primary] Console.log()
 * [Primary] Variables
+	* [Secondary] var
+	* [Primary] const, let 
 * [Primary] camelCasing
 * [Primary] Comments
 * [Primary] JS Primitives 
@@ -63,7 +65,7 @@ WDI-101 will introduce students to the basics and fundamentals of web developmen
 	* .splice()
 * [Primary] Object Methods 1
 	* Object Literal Syntax
-	* .hasOwnProperty()
+	* .hasOwn()
 * [Primary] Assignment Operators
 	* =
 	* +=
@@ -130,6 +132,7 @@ Building upon the topics introduced in WDI-101, WDI-102 will dive deeper into ho
 	* !
 	* !!
 * [Primary] String/Array Methods 2
+	* `String literals with ${variables}`
 	* .includes()
 	* .indexOf()
 * [Primary] Loops 1
@@ -139,6 +142,7 @@ Building upon the topics introduced in WDI-101, WDI-102 will dive deeper into ho
 * [Primary] Truthy vs Falsy
 * [Primary] Functions
 	* Function Declaration Statement
+	* Arrow Functions
 	* Calling Functions
 	* return 
 	* Arguments and Parameters
@@ -160,9 +164,9 @@ WDI-103 will move the class into more intermediate web and Javascript topics. St
 	* PUT
 	* DELETE
 * [Primary] Ajax/Fetch
-* [Primary] Events
-* [Primary] Inputs
-* [Primary] Forms
+* [Primary] HTML Events
+* [Primary] HTML Inputs
+* [Primary] HTML Forms
 
 #### Styled Websites
 * [Primary] CSS
@@ -174,9 +178,9 @@ WDI-103 will move the class into more intermediate web and Javascript topics. St
 
 #### Javascript Programming 3: Advanced Topics and Intro to Async
 * [Primary] Advanced Variables
-	* [Primary] Const vs Let
+	* [Primary] const vs let vs var
 	* [Primary] This Keyword
-	* [Primary] Arrow Function / =>
+	* [Primary] Arrow Function vs Hoisted Function
 	* [Secondary] Variable Type Coersion
 	* [Secondary] Global vs Block/Lexical/Function Scope / Avoiding Naming Conflicts
 * [Primary] Array Methods 2
@@ -227,7 +231,6 @@ WDI-104 serves as the last phase of introduction for all the web and Javascript 
 	* .filter()
 	* [Secondary] .reduce()
 * [Secondary] String Methods 3
-	* Template Literal / ``
 	* Regex
 	* Unicode
 * [Primary] Asynchronous Javascript 2
